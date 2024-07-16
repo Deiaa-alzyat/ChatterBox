@@ -42,3 +42,37 @@ https://drive.google.com/file/d/1SMnGE3dbBoMPAhsfI5bqE7qS0sNpY838/view?usp=shari
 
 # Github Url
 https://github.com/Deiaa-alzyat/ChatterBox
+
+Steps to Start the Application:
+Starting MongoDB:
+Command:
+# sudo systemctl start mongod
+Description: This command starts the MongoDB service, which is required to store user data and chat history.
+Verification:#
+# sudo systemctl status mongod
+Description: This command checks the status of the MongoDB service to ensure it is running.
+Setting Up the Backend:
+Navigate to the Backend Directory:
+Command:
+# cd server
+Install Dependencies:
+Command:
+# npm install
+Description: This command installs all the necessary dependencies for the backend.
+Start the Backend Server:
+Command:
+# npm start
+Description: This command starts the backend server, enabling API endpoints and WebSocket connections.
+Setting Up the Frontend:
+Navigate to the Frontend Directory:
+Command:
+# cd ../public
+Install Dependencies:
+Command:
+# npm install
+Description: This command installs all the necessary dependencies for the frontend.
+Start the Frontend Server:
+Command:
+# npm start
+Description: This command starts the frontend development server, opening the application in your default web browser.
+
